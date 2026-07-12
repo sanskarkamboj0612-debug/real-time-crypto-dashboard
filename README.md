@@ -1,17 +1,24 @@
 # 📈 Real-Time Crypto Dashboard
 
-A professional real-time cryptocurrency dashboard built using **Python**, **Streamlit**, **Pandas**, and the **CoinGecko API**. The dashboard fetches live cryptocurrency prices and displays them in an interactive web interface with automatic data refresh.
+A professional **Real-Time Cryptocurrency Dashboard** built using **Python**, **Streamlit**, **Pandas**, and the **CoinGecko API**. The application fetches live cryptocurrency prices and displays them in an interactive dashboard with automatic updates every 30 seconds.
 
 ---
 
-## 🚀 Features
+## 🚀 Project Overview
 
-- 📊 Real-time cryptocurrency price tracking
+This project demonstrates how to build a real-time analytics dashboard using Python and Streamlit by integrating a public cryptocurrency API. The dashboard provides live market data with an intuitive interface, making it suitable for beginners learning APIs, dashboards, and data visualization.
+
+---
+
+## ✨ Features
+
+- 📊 Live cryptocurrency price tracking
+- 🌐 Real-time data from CoinGecko API
 - 🔄 Auto-refresh every 30 seconds
-- 🌐 Live data using CoinGecko API
-- 📈 Interactive dashboard built with Streamlit
-- 🕒 Displays last updated time
-- 📱 Responsive and clean UI
+- 💲 Displays current price in USD
+- 🕒 Shows last updated timestamp
+- 📱 Responsive and interactive dashboard
+- ⚡ Fast and lightweight Streamlit application
 
 ---
 
@@ -37,7 +44,7 @@ Project 03 Real-Time Crypto Dashboard
 │   └── requirements.txt
 │
 ├── 02_Images&video
-│   ├── Dashboard Screenshot(s)
+│   ├── Dashboard Screenshots
 │   └── Demo Video
 │
 └── README.md
@@ -47,48 +54,88 @@ Project 03 Real-Time Crypto Dashboard
 
 ## ⚙️ Installation
 
-Clone the repository:
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/sanskarkamboj0612-debug/real-time-crypto-dashboard.git
 ```
 
-Move into the project folder:
+### 2. Navigate to the Project Folder
 
 ```bash
 cd real-time-crypto-dashboard
 ```
 
-Install dependencies:
+### 3. Install Required Libraries
 
 ```bash
 pip install -r 01_Source_Code/requirements.txt
 ```
 
-Run the Streamlit application:
+### 4. Run the Dashboard
 
 ```bash
 streamlit run 01_Source_Code/app.py
 ```
 
+The application will automatically open in your default browser.
+
 ---
 
-## 📷 Output
+## 📷 Dashboard Preview
+
+### Dashboard Screenshot
+
+> Screenshots are available inside the **02_Images&video** folder.
+
+Example:
+
+<p align="center">
+  <img src="02_Images&video/Screenshot 2026-07-13 012039.png" width="900">
+</p>
+
+---
+
+## 🎥 Demo Video
+
+A complete demonstration video of the dashboard is available in the **02_Images&video** folder.
+
+---
+
+## 📊 Dashboard Information
 
 The dashboard displays:
 
 - Cryptocurrency Name
 - Live Price (USD)
 - Last Updated Time
-- Automatic Refresh Every 30 Seconds
+- Automatic Refresh Status
 
 ---
 
-## 📊 Data Source
+## 📡 Data Source
 
-- CoinGecko Public API
+This project uses the **CoinGecko Public API** for fetching real-time cryptocurrency prices.
+
+Website:
 
 https://www.coingecko.com/
+
+API Documentation:
+
+https://www.coingecko.com/en/api
+
+---
+
+## 💡 Future Improvements
+
+- Multiple cryptocurrency support
+- Price trend charts
+- Historical price analysis
+- Search functionality
+- Dark/Light theme toggle
+- Portfolio tracking
+- Multiple currency support (USD, INR, EUR)
 
 ---
 
@@ -96,9 +143,13 @@ https://www.coingecko.com/
 
 **Sanskar Kamboj**
 
-GitHub:
+BS Mathematics & Data Science Student
+
+GitHub Profile:
 https://github.com/sanskarkamboj0612-debug
 
 ---
 
-## ⭐ If you found this project useful, consider giving it a star.
+## ⭐ Support
+
+If you found this project useful, please consider giving this repository a **Star ⭐**.
